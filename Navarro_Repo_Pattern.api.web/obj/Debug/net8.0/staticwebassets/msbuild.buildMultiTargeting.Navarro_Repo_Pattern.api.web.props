@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Navarro_Repo_Pattern.api.web.props" />
+</Project>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navarro_Repo_Pattern", "Navarro_Repo_Pattern\Navarro_Repo_Pattern.csproj", "{29C64D1A-485B-4C4E-ABBD-0AF224B428C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navarro_Repo_Pattern.domain", "Navarro_Repo_Pattern.domain", "{DD24C030-0ED0-4695-BE56-847DE29C5D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navarro_Repo_Pattern.Domain", "Usuario\Navarro_Repo_Pattern.Domain.csproj", "{0EB29A7A-E44A-4E74-941E-C49F02D17E93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navarro_Repo_Pattern.infra", "Navarro_Repo_Pattern.infra", "{F0D0D4AB-47A9-437E-862D-ABB6FC07240C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navarro_Repo_Pattern.Infra", "Navarro_Repo_Pattern.Infra\Navarro_Repo_Pattern.Infra.csproj", "{2A598010-29B3-4B30-9CE6-F14C5477B711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navarro_Repo_Pattern.api", "Navarro_Repo_Pattern.api", "{A519FA4C-D22B-4737-A722-F6D7A1F80C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navarro_Repo_Pattern.api.web", "Navarro_Repo_Pattern.api.web\Navarro_Repo_Pattern.api.web.csproj", "{4BD9894D-7D6A-4B7A-B08B-CCF9582220C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C64D1A-485B-4C4E-ABBD-0AF224B428C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C64D1A-485B-4C4E-ABBD-0AF224B428C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C64D1A-485B-4C4E-ABBD-0AF224B428C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C64D1A-485B-4C4E-ABBD-0AF224B428C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB29A7A-E44A-4E74-941E-C49F02D17E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB29A7A-E44A-4E74-941E-C49F02D17E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB29A7A-E44A-4E74-941E-C49F02D17E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB29A7A-E44A-4E74-941E-C49F02D17E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A598010-29B3-4B30-9CE6-F14C5477B711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A598010-29B3-4B30-9CE6-F14C5477B711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A598010-29B3-4B30-9CE6-F14C5477B711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A598010-29B3-4B30-9CE6-F14C5477B711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD9894D-7D6A-4B7A-B08B-CCF9582220C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD9894D-7D6A-4B7A-B08B-CCF9582220C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD9894D-7D6A-4B7A-B08B-CCF9582220C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD9894D-7D6A-4B7A-B08B-CCF9582220C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EB29A7A-E44A-4E74-941E-C49F02D17E93} = {DD24C030-0ED0-4695-BE56-847DE29C5D86}
+		{2A598010-29B3-4B30-9CE6-F14C5477B711} = {F0D0D4AB-47A9-437E-862D-ABB6FC07240C}
+		{4BD9894D-7D6A-4B7A-B08B-CCF9582220C0} = {A519FA4C-D22B-4737-A722-F6D7A1F80C63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A196F66-10D1-4CD5-A72D-918584344F5B}
+	EndGlobalSection
+EndGlobal

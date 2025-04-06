@@ -1,0 +1,16 @@
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.AssemblyInfo.cs
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.sourcelink.json
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\bin\Debug\net8.0\Navarro_Repo_Pattern.Infra.deps.json
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\bin\Debug\net8.0\Navarro_Repo_Pattern.Infra.dll
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\bin\Debug\net8.0\Navarro_Repo_Pattern.Infra.pdb
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\bin\Debug\net8.0\Navarro_Repo_Pattern.Domain.dll
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\bin\Debug\net8.0\Navarro_Repo_Pattern.Domain.pdb
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_.DBEF5B89.Up2Date
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.dll
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\refint\Navarro_Repo_Pattern.Infra.dll
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.pdb
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\ref\Navarro_Repo_Pattern.Infra.dll
