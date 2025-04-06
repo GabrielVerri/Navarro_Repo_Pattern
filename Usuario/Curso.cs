@@ -8,7 +8,7 @@ namespace Navarro_Repo_pattern.Domain
 {
     public class Curso
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Nome { get; set; }
 
     }

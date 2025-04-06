@@ -8,7 +8,7 @@ namespace Navarro_Repo_pattern.Domain
 {
     public class Evento
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Nome { get; set; }
         public DateTime DataCriacao { get; set; }
 
@@ -18,7 +18,7 @@ namespace Navarro_Repo_pattern.Domain
         public List<Usuario> Inscritos { get; set; }
 
         //TODO: veirificar se essa sintaxe tambem pode ser usada
-        Evento(int id, string nome, DateTime dataCriacao, bool exigeInscricao, string local, List<Usuario>? inscritos  )
+        Evento(Guid id, string nome, DateTime dataCriacao, bool exigeInscricao, string local, List<Usuario>? inscritos  )
         {
             Id = id;
             Nome = nome;

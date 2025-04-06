@@ -5,11 +5,11 @@ namespace Navarro_Repo_Pattern.Infra.Interface
 {
     public interface IUsuarioRepository
     {
-        List<Usuario> GetAllUsuarios();
-        Usuario GetUsuariosById(int id);
+        Task<IEnumerable<Usuario>> GetAllUsuarios();
+        Task<Usuario> GetUsuariosById(Guid id);
 
-        bool AddUsuario(Usuario usuario);
-        bool UpdateUsuario(Usuario usuario);
-        bool DeleteUsuario(int id);
+        Task AddUsuario(Usuario usuario);
+        Task UpdateUsuario(Usuario usuario);
+        Task DeleteUsuario(Guid id);
     }
 }
