@@ -1,0 +1,2 @@
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern\obj\Debug\Navarro_Repo_Pattern.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern\obj\Debug\Navarro_Repo_Pattern.csproj.CoreCompileInputs.cache
