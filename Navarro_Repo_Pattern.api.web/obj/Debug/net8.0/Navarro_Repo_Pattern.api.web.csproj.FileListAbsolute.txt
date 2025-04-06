@@ -76,3 +76,4 @@ C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.api.web\
 C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.api.web\bin\Debug\net8.0\Navarro_Repo_Pattern.Infra.dll
 C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.api.web\bin\Debug\net8.0\Navarro_Repo_Pattern.Infra.pdb
 C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.api.web\bin\Debug\net8.0\Navarro_Repo_Pattern.Domain.pdb
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.api.web\obj\Debug\net8.0\Navarro_Repo_Pattern.api.web.MvcApplicationPartsAssemblyInfo.cs

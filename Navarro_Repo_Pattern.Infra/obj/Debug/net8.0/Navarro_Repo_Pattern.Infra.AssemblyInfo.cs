@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Navarro_Repo_Pattern.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bda62441d21cc263dc0f6d3fd5956762854057d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaa146e07bfe72ae2504644b52268a5e5673a48e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Navarro_Repo_Pattern.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Navarro_Repo_Pattern.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

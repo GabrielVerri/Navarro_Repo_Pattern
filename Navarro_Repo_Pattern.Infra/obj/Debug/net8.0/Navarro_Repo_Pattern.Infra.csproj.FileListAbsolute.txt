@@ -14,3 +14,5 @@ C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\ob
 C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\refint\Navarro_Repo_Pattern.Infra.dll
 C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.pdb
 C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\ref\Navarro_Repo_Pattern.Infra.dll
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\bin\Debug\net8.0\Navarro_Repo_Pattern.Infra.runtimeconfig.json
+C:\Users\Gabriel\Source\Repos\Navarro_Repo_Pattern\Navarro_Repo_Pattern.Infra\obj\Debug\net8.0\Navarro_Repo_Pattern.Infra.genruntimeconfig.cache

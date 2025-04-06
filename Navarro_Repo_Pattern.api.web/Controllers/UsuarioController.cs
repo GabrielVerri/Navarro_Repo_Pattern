@@ -1,88 +1,78 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Navarro_Repo_pattern.Domain;
 using Navarro_Repo_Pattern.Infra.Interface;
 
 namespace Navarro_Repo_Pattern.api.web.Controllers
 {
+    //TODO terminar de testar seguir e parar de seguir
+    [Route("api/usuarios")]
+    [ApiController] 
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepository _usuarioRepository;
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Usuario>>> ObterTodos()
+        public UsuarioController(IUsuarioRepository usuarioRepository)
         {
-            var usuarios = await _usuarioRepository.GetAllUsuarios();
+            _usuarioRepository = usuarioRepository;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Usuario>>> GetAllUsuarios()
+        {
+
+            var usuarios = await _usuarioRepository.GetAllUsuariosAsync();
             return Ok(usuarios);
         }
 
-        // GET: UsuarioController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> GetUsuariosById(Guid id)
         {
-            return View();
+            var usuario = await _usuarioRepository.GetUsuariosByIdAsync(id);
+            if (usuario == null) return NotFound("Usuário não encontrado.");
+
+            return Ok(usuario);
         }
 
-        // GET: UsuarioController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: UsuarioController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> AddUsuario(Usuario usuario,Guid curso)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            await _usuarioRepository.AddUsuarioAsync(usuario, curso);
+            return CreatedAtAction(nameof(GetUsuariosById), new { id = usuario.Id }, usuario);
         }
 
-        // GET: UsuarioController/Edit/5
-        public ActionResult Edit(int id)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateUsuario(Guid id, Usuario usuario)
         {
-            return View();
+            if (id != usuario.Id) return BadRequest("IDs não correspondem.");
+
+            await _usuarioRepository.UpdateUsuarioAsync(usuario);
+            return NoContent();
         }
 
-        // POST: UsuarioController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteUsuario(Guid id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            await _usuarioRepository.DeleteUsuarioAsync(id);
+            return NoContent();
         }
 
-        // GET: UsuarioController/Delete/5
-        public ActionResult Delete(int id)
+        [HttpPost("{usuarioId}/seguir/{seguidoId}")]
+        public async Task<ActionResult> SeguirUsuario(Guid usuarioId, Guid seguidoId)
         {
-            return View();
+            await _usuarioRepository.SeguirUsuarioAsync(usuarioId, seguidoId);
+            return Ok("Agora você está seguindo esse usuário.");
         }
 
-        // POST: UsuarioController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        /// <summary>
+        /// Permite que um usuário pare de seguir outro usuário.
+        /// </summary>
+        [HttpPost("{usuarioId}/parar-de-seguir/{seguidoId}")]
+        public async Task<ActionResult> PararSeguirUsuario(Guid usuarioId, Guid seguidoId)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            await _usuarioRepository.PararSeguirUsuarioAsync(usuarioId, seguidoId);
+            return Ok("Você parou de seguir esse usuário.");
         }
     }
 }
